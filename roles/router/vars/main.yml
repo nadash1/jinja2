@@ -1,0 +1,21 @@
+---
+routers: 
+  - hostname: CE1
+    loopback: 1.1.1.1 255.255.255.255
+    enable_secret: cisco 
+
+  - hostname: PE1
+    loopback: 2.2.2.2 255.255.255.255
+    enable_secret: cisco 
+
+  - hostname: P
+    loopback: 3.3.3.3 255.255.255.255
+    enable_secret: cisco
+
+  - hostname: PE2
+    loopback: 4.4.4.4 255.255.255.255
+    enable_secret: cisco 
+
+  - hostname: CE2
+    loopback: 5.5.5.5 255.255.255.255
+    enable_secret: cisco  
